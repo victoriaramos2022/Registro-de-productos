@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h2>Registro de productos</h2>
+ 
+    <form action="">
+        <ul>
+            <li>
+                <label for="codigo">Codigo: </label>
+                <input type="text" id="codigo" name="codigo">
+            </li>
+
+            <li>
+                <label for="descripción">Descripción: </label>
+                <input type="text" id="descripcion" name="descripcion">
+            </li>
+            <li>
+                <label for="codigo de barra">Codigo de barra: </label>
+                <input type="text" id="codigo de barra" name="codigo de barra">
+            </li>
+            <li>
+                <label for="precio unitario">Precio unitario: </label>
+                <input type="text" id="precio unitario" name="precio unitario">
+            </li>
+            <li>
+                <label for="stock">Stock: </label>
+                <input  type="text" id="stock" name="stock">
+            </li>
+            <li>
+                <label for="proveedor">Proveedor: </label>
+                <input type="text" id="proveedor" name="proveedor">
+            </li>
+            <li>
+                <label for="estado">Estado: </label>
+                <input class="input-checkbox" type="checkbox" id="estado" name="estado">
+                <label for="activo" id="activo">Activo</label>
+            </li>
+            <li>
+                <label for="categoria">Categoria:</label>
+                <select name="categoria" id="categoria" class="select">
+                    <option value="categoria 1"> Categoria 1</option>
+                    <option value="categoria 2"> Categoria 2</option>
+                    <option value="categoria 3"> Categoria 3</option>
+                    <option value="categoria 4"> Categoria 4</option>
+                </select> 
+            </li>
+        </ul>  
+    </form>
+
+    <form action="/datosguardados.html" class="btn">
+        <button type="submit" class="button">
+            Guardar
+        </button>
+    </form>
+
+    <form action="/index.html" class="btn">
+        <button type="submit" class="button">
+            Cancelar
+        </button>
+    </form>
+
+</body>
+</html>

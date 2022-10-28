@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #FAF6E9;
+  color: #483838
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 50px 50px 50px 130px ;
+    padding: 10px;
+    text-align: center;
+  }
+
+  h1{
+    text-align: center;
+  }
+  
+  .button-new{
+    color: white;
+    background-color: #54BAB9;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    
+  }
+
+  .button-edit{
+    color: white;
+    background-color: #54BAB9;
+    padding: 10px;
+    border-radius: 10px;
+    border: none
+  }
+
+  .button-delete{
+    color: white;
+    background-color:#54BAB9;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  li{
+    list-style: none;
+    padding: 10px;
+  }
+
+ label{
+  display: inline-block;
+  width: 10%;
+  text-align: right;
+  margin: 7px
+ }
+
+ #activo{
+  display: inline;
+ }
+
+ .btn{
+  display: inline;
+  margin: 30px;
+  padding-left: 70px
+ }
+
+ .select{
+  width: 11.5%;
+ }
+
+ .button{
+  color: white;
+  background-color: #54BAB9;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.button-new,.button-edit,.button-delete,.button:hover{
+  color: #483838
+}
+
+
